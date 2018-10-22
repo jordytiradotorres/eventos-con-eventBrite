@@ -1,0 +1,56 @@
+html {
+    font-size: 16px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloque-buscar {
+    border: 1px solid rgba(0, 0, 0, .5);
+}
+header {
+    background-color: rgb(62, 3, 139);
+}
+header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+main h2 {
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+
+main {
+    padding: 1.5rem 1rem 1rem;
+}
+
+.btn.btn-success {
+    border-radius: 0;
+}
+
+footer {
+    background-color: rgb(62, 3, 139);
+}
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700,900|Raleway:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Buscador de Eventos</title>
+  </head>
+
+  <body>
+
+    <header class="py-4 mb-5">
+      <div class="container-fluid">
+        <h1 class="text-white">Buscador Eventos</h1>
+      </div>
+    </header>
+    
+    <div class="container bloque-buscar">
+      <main id="main">
+        
+          <h2 class="text-center">Busca eventos de tu interés o en tu ciudad</h2>
+    
+          <form action="#" id="formulario">
+            <div class="form-group">
+              <label for="busqueda">Example Select</label>
+              <input type="search" id="busqueda" class="form-control" placeholder="Busca por nombre de evento, banda o contante">
+            </div>
+
+            <div class="form-group">
+              <label for="categoria">Categoía Evento</label>
+              <select name="categoria" id="categoria" class="form-control">
+              
+              </select>
+            </div>
+
+            <input type="submit" value="Buscar" id="buscar" class="btn btn-success btn-block mt-5">
+          </form>
+
+          <div id="resultado-eventos" class="row">
+
+          </div>
+      </main>
+
+    </div>
+
+    <footer class="text-center py-3 mt-5">
+        <p class="m-0 text-white">Buscador de Eventos &copy;</p>
+    </footer>
+
+    <script src="js/jquery.slim.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/eventbrite.js"></script>
+    <script src="js/interfaz.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
